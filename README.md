@@ -139,3 +139,29 @@ Still faster than manual fixes (30-50% time savings)
 
 Bottom line: Your LangGraph approach is excellent for scale and automation, but you should reserve complex/risky issues for human developers using AI assistants. The combination is more powerful than either alone.
 Want me to help you design the classification logic to decide which issues go to which approach?RetryClaude can make mistakes. Please double-check responses.
+
+
+## Fix Sonar Code Quality Issues
+
+**Automated LangGraph AI Agent for Tech Debt & Vulnerability Resolution**
+
+Develop an intelligent LangGraph agent that automatically analyzes and fixes code quality issues, technical debt, and security vulnerabilities identified by SonarQube and Checkmarx scanning tools.
+
+**How it works:**
+- Runs nightly or can be manually triggered
+- Processes up to 10 issues per batch for manageable review cycles
+- Analyzes each issue, generates fixes using LLM, validates changes, and runs tests
+- Accumulates all fixes in a single feature branch
+- Creates one Merge Request per batch with comprehensive documentation
+
+**Input:** 
+- Application code from GitLab repository
+- SonarQube scan results
+- Checkmarx security reports
+
+**Output:** 
+- Merge Request with validated fixes ready for human review
+- Detailed report of fixed, failed, and skipped issues
+- Test results ensuring no regressions introduced
+
+**Benefits:** Reduces manual effort, maintains code quality continuously, and prevents technical debt accumulation.
