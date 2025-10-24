@@ -1,6 +1,9 @@
 # ReActAgentSonarFixLangGraph
 Great question! Let me give you an **honest comparison** of both approaches:
 
+<img width="777" height="172" alt="image" src="https://github.com/user-attachments/assets/567b3402-419a-4051-95a4-7279dea4d285" />
+
+
 ## 🥊 **VS Code AI Agent vs LangGraph Pipeline**
 
 ### **VS Code AI Agent (Copilot/Cursor/etc.)**
